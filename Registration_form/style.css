@@ -1,0 +1,104 @@
+/* ====== General Reset ====== */
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ====== Body ====== */
+body {
+    background-color: #f2f2f2; /* Light grey background */
+    color: #333; /* Default text color */
+    line-height: 1.5;
+    padding: 10px;
+}
+
+/* ====== Header ====== */
+header {
+    text-align: center;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 20px 10px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+/* ====== Form ====== */
+form {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* ====== Section Heading ====== */
+form h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* ====== Tables ====== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+td {
+    padding: 5px 0;
+    vertical-align: top;
+}
+
+/* ===== Radio Buttons Inline ===== */
+.gender-group {
+    display: flex;        /* Horizontal layout */
+    align-items: center;  /* Vertical alignment */
+    gap: 10px;            /* Space between items */
+    margin-bottom: 10px;  /* Space after section */
+}
+
+.gender-group label {
+    margin: 0;            /* Remove extra spacing */
+    font-weight: normal;
+}
+
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    margin: 5px 10px 5px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Section spacing */
+section {
+    margin-bottom: 20px;
+}
+
+/* Responsive for small screens */
+@media screen and (max-width: 600px) {
+    table, td {
+        display: block;
+        width: 100%;
+    }
+    td {
+        margin-bottom: 10px;
+    }
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

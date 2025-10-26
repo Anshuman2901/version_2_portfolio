@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+header, footer {
+    text-align: center;
+    background-color:lightgrey;
+    color: white;
+    padding: 15px 0;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+audio, video {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+h1 em {
+    font-style: normal;
+    color: #1E2A5E;
+}
