@@ -25,8 +25,8 @@ portfolio/
 
 ## 💻 Skills
 
-| Skill        | Level     | Badge |
-|--------------|----------|-------|
+| Skill        | Level    |
+|--------------|----------|
 | HTML         | Expert   | 
 | CSS          | Learning | 
 | JavaScript   | Beginner | 
