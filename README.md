@@ -1,6 +1,6 @@
 # 🌟 Anshuman Jha - Portfolio
 
-![Portfolio Badge](https://img.shields.io/badge/Portfolio-Anshuman%20Jha-blue?style=for-the-badge&logo=appveyor)
+
 
 Welcome to my personal portfolio!  
 I am a **B.Tech CSE(Core) student** at K.R Mangalam University, passionate about **web development, learning new technologies, and creating interactive projects**.
@@ -9,6 +9,17 @@ I am a **B.Tech CSE(Core) student** at K.R Mangalam University, passionate about
 
 ## 🗂 Repository Structure
 
+portfolio/
+│
+├─ index.html # Portfolio homepage
+├─ style.css # Global CSS
+├─ Registration_form/ # Project 1
+│ ├─ index.html
+│ └─ style.css
+├─ Multimedia/ # Project 2
+│ ├─ index.html
+│ └─ style.css
+└─ README.md # Project documentation
 
 ---
 
@@ -16,9 +27,9 @@ I am a **B.Tech CSE(Core) student** at K.R Mangalam University, passionate about
 
 | Skill        | Level     | Badge |
 |--------------|----------|-------|
-| HTML         | Expert   | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) |
-| CSS          | Learning | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) |
-| JavaScript   | Beginner | ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
+| HTML         | Expert   | 
+| CSS          | Learning | 
+| JavaScript   | Beginner | 
 
 ---
 
@@ -43,12 +54,6 @@ I am a **B.Tech CSE(Core) student** at K.R Mangalam University, passionate about
 - **Snapchat:** [anshuman22150](https://www.snapchat.com/add/anshuman22150)  
 - **X/Twitter:** [@Anshuma0004](https://x.com/Anshuma0004)  
 - **LinkedIn:** [Anshuman Jha](https://www.linkedin.com/in/anshuman-jha-a4b549369/)
-
----
-
-## ⭐ GitHub Stats
-
-![Anshuman's GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=radical)
 
 ---
 
