@@ -1,128 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-    <title>Anshuman Jha</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Anshuman Jha</title>
 </head>
 <body>
-    
-    <header id="head">
-        
-        <h1>My Portfolio</h1>
-        
-<nav>
+  <header id="head">
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#About">About</a>
+      <a href="#Project">Project</a>
+      <a href="#Technical_Skill">Skills</a>
+      <a href="#Contact">Contact</a>
+    </nav>
+    <hr />
+  </header>
 
-<a href="#About">About</a>
-<a href="#Project">project</a>
-<a href="#Contact">Contact</a>
-<a href="#Technical_Skill">Skills</a>
+  <main>
+    <section id="About">
+      <h2>About Me</h2>
+      <img src="photo_1/AN_PHOTO-fotor-20251026134819.png" alt="My photo" title="This is my photo" height="250px" />
+      <p>
+        <big>
+          Hello, I'm <b>Anshuman Jha</b>. I am a student and currently study
+          <strong>B.Tech CSE (Core)</strong> at K.R. Mangalam University. I love
+          learning new things and building small projects using HTML. I'm passionate
+          about technology and always curious and ready to take on new challenges!
+        </big>
+      </p>
+    </section>
 
-</nav>
-<hr>
+    <section id="Project">
+      <h2>My Projects</h2>
 
-    </header>
-    
-    <main>
-
-<section>
- 
-    <h2 id="About">About Me</h2>
-    <img src="photo_1/AN_PHOTO-fotor-20251026134819.png" alt="My photo" title="This is my photo" height="250px"/>
-<p><big>Hello, I'm <b>Anshuman Jha</b> . I am a student and currently study <strong>B.Tech CSE(Core)</strong> at k.R Mangalam University who loves learning new things and buildes small projects using HTML. I'm passionate about technology and  Always curious and ready to take on new challenges!
-</big></p>
-</section>
-
-<section id="Project">
-    <h2>My Projects</h2>
-
-   
-    <div class="project-card">
+      <div class="project-card">
         <h3>User Form Project</h3>
         <p>
-            A clean and responsive form built using <b>HTML</b> and <b>CSS</b>.
-            Includes personal info, account details, preferences, and additional information.  
-            Designed to practice form handling, validation, and user-friendly input fields.
+          A clean and responsive form built using <b>HTML</b> and <b>CSS</b>.
+          Includes personal info, account details, preferences, and additional
+          information. Designed to practice form handling, validation, and user-friendly input fields.
         </p>
         <a href="/Registration_form/index.html" target="_blank">Form Registration</a>
-    </div>
+      </div>
 
-    
-    <div class="project-card">
+      <div class="project-card">
         <h3>Multimedia Blog Project</h3>
         <p>
-            An interactive blog webpage integrating <b>images</b>, <b>audio</b>, and <b>video</b> content.  
-            Highlights favorite songs and top Indian film trailers with descriptions and media playback.  
-            Built with semantic HTML5 elements and styled with CSS for a modern look.
+          An interactive blog webpage integrating <b>images</b>, <b>audio</b>, and
+          <b>video</b> content. Highlights favorite songs and top Indian film trailers
+          with descriptions and media playback. Built with semantic HTML5 elements
+          and styled with CSS for a modern look.
         </p>
         <a href="/Multimedia/index.html" target="_blank">Multimedia Blog</a>
+      </div>
+    </section>
+
+    <section id="Technical_Skill">
+      <h2>Technical Skills</h2>
+      <table border="4" cellspacing="2" class="table">
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Expert</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Learning</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Beginner</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+
+
+
+  <footer id="Contact">
+    <h2>Contact Me</h2>
+    <form id="form">
+      <table>
+        <tr>
+          <td><label for="name">Name:</label></td>
+          <td><input type="text" id="name" name="name" placeholder="Enter your name" required /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="email" id="email" name="email" placeholder="Enter your email" required /></td>
+        </tr>
+        <tr>
+          <td><label for="message">Message:</label></td>
+          <td><textarea id="message" name="message" placeholder="Write your message" required></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="center-btn">
+            <button type="submit">Send</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <hr />
+    <div>
+      <a href="https://www.instagram.com/anshuman.200/" target="_blank" title="Follow me on Instagram">
+        <img src="/photo_1/instagram.webp" alt="Instagram" height="50px" />
+      </a>
+      <a href="https://www.snapchat.com/add/anshuman22150?share_id=cwLMx_dDGMY&locale=en-IN" target="_blank" title="Add me on Snapchat">
+        <img src="/photo_1/snapchat.png" alt="Snapchat" height="50px" />
+      </a>
+      <a href="https://x.com/Anshuma0004?t=Z3VUiK-28UvmL0iMKvxvkQ&s=09" target="_blank" title="Follow me on X (Twitter)">
+        <img src="/photo_1/twitter.png" alt="Twitter" height="50px" />
+      </a>
+      <a href="https://www.linkedin.com/in/anshuman-jha-a4b549369" target="_blank" title="Connect with me on LinkedIn">
+        <img src="/photo_1/linkedin.png" alt="LinkedIn" height="50px" />
+      </a>
     </div>
-    
-</section>
+
+<a href="#head" id="back-to-top">Back to Top</a>
 
 
-<section>
-<h2 id="Technical_Skill">Technical Skills</h2>
-<table border="4" cellspacing="2" class="table">
-   <thead>
-<tr>
-    <th>Skill</th>
-    <th>Level</th>
-</tr>
-   </thead>
-<tbody>
-<tr>
-    <td>HTML</td>
-    <td>Expert</td>
-</tr>
-<tr>
-    <td>CSS</td>
-    <td>learning</td>
-</tr>
-<tr>
-    <td>JavaScript</td>
-    <td>beginner</td>
-</tr>
-</tbody>
-</table>
-</section>
-</main>
+  </footer>
 
-<footer>
+  
 
-<section>
-<h2 id="Contact">Contact Me</h2>
-<form id="form">
-<table>
-<tr>
-<td><label for="name">Name:</label></td>
-<td><input type="text" id="name" name="name" placeholder="Enter your name" required></td>
-</tr>
-<tr>
-<td><label for="email">Email:</label></td>
-<td><input type="Email" id="email" name="email" placeholder="Enter your email" required></td>
-</tr>
-<tr>
-<td><label for="message">Message:</label></td>
-<td><textarea name="message" id="message" class="message" rows="4" cols="30" placeholder="Enter your message" required></textarea></td>
-</tr>
-<tr>
-<td><button type="submit"  required>Send</button></td>
-</tr>
-</table>
-</form>
-</section>
 
-<section>
-<hr>
-<a href ="https://www.instagram.com/anshuman.200/" target ="_blank" title="Follow me on Instagram"><img src="/photo_1/instagram.webp" alt="Instagram Profile" height="50px"/></a>
-<a href="https://www.snapchat.com/add/anshuman22150?share_id=cwLMx_dDGMY&locale=en-IN" target ="_blank" title="Add me on Snapchat"><img src ="/photo_1/snapchat.png" alt = "Snapchat Profile" height="50px"/></a>
-<a href="https://x.com/Anshuma0004?t=Z3VUiK-28UvmL0iMKvxvkQ&s=09" target="_blank" title="Follow me on X (Twitter)"><img src="/photo_1/twitter.png" alt="Twitter Profile" height="50px"/></a>
-<a href = "https://www.linkedin.com/in/anshuman-jha-a4b549369?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target ="_blank"title="Connect with me on LinkedIn"><img src="/photo_1/linkedin.png" alt="linkdin Profile" height="50px"/></a>
-</section>
-
-</footer>
-
+ 
 </body>
 </html>
+
